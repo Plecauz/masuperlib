@@ -11,7 +11,7 @@ jobs:
     steps:
     - uses: actions/checkout@v2
 
-    -name: Build Doxygen documentation
+    - name: Build Doxygen documentation
       uses: mattnotmitt/doxygen-action@v1.9.5
       with:
         doxyfile-path: 'docs/Doxygen'
