@@ -26,4 +26,3 @@ jobs:
     - name: Run tests
       run : |
         ./build/masuperlib-test
-
