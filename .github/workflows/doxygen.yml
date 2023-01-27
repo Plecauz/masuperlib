@@ -19,6 +19,6 @@ jobs:
     - name: Deploy Doxygen Documentation
       uses: peaceiris/actions-gh-pages@v3
       with:
-        github_token: ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAINu2MaQsZ+U1f7A0i2sMElvD9ixJsO7tZHsbaTfxWM9c
+        github_token: ${{secret.DOXYGEN}}
         publish_dir: ./public
 
